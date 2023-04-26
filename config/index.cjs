@@ -59,7 +59,7 @@ USE_PASSAGE: 'push-plus',
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ocWCx6oE8P67TqKTfftWa-826hdw',
+      id: '7d4e7b55d5fd4fd094e31aeeb18c309a',
     }
   ],
 
