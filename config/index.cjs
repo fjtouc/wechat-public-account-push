@@ -23,7 +23,7 @@ USE_PASSAGE: 'push-plus',
       // 想要发送的人的名字
       name: '楚寒老婆',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '7d4e7b55d5fd4fd094e31aeeb18c309a',
+      id: 'e813b1bd6b4b4240bd928334b8070033',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -59,7 +59,7 @@ USE_PASSAGE: 'push-plus',
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ocWCx6tJ3Yw9A9jPvLMbFHMPPJ4I',
+      id: 'ocWCx6oE8P67TqKTfftWa-826hdw',
     }
   ],
 
