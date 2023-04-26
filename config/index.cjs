@@ -16,7 +16,7 @@ USE_PASSAGE: 'push-plus',
   APP_SECRET: 'c1480827ae15978920399e5fb23f2919',
 
   PROVINCE: '重庆',
-  CITY: '沙坪坝',
+  CITY: '重庆',
 
   USERS: [
     {
@@ -31,11 +31,11 @@ USE_PASSAGE: 'push-plus',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '*生日', name: '宝贝', year: '1997', date: '10-04',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '夏祺', year: '2002', date: '07-10',
         },
         {
           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
@@ -44,22 +44,22 @@ USE_PASSAGE: 'push-plus',
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2022-11-25' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2022-11-25' },
       ],
     },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: '0001',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'ocWCx6oE8P67TqKTfftWa-826hdw',
     }
   ],
 
